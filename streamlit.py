@@ -53,7 +53,7 @@ def call_snowflake_claude():
     tool_input_json = None
     
     payload = {
-        "model": "claude-3-5-sonnet",
+        "model": "claude-3-7-sonnet",
         "messages": messages,
         "tool_choice": {
             "type": "auto",
